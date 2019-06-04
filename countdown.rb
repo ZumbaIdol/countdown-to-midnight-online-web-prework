@@ -11,11 +11,11 @@ end
 
 countdown(10)
 
-counter = 5
+y = 5
 def count_down_with_sleep(y)
-  while counter < 5
+  while y < 5
   puts "#{y} SECOND(S)!"
-  counter -= 1
+  y -= 1
   sleep(1.0)
   end 
 end
